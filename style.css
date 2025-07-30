@@ -1,12 +1,13 @@
 /* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Merriweather&family=Cinzel&family=Roboto&family=Open+Sans&display=swap');
+
 
 :root {
-    --primary: #F4F1EB;
-    --primary-dark: #222222;
-    --text-dark: #E7E1D9;
-    --text-light: #AFA9A2;
-    --section-background: #1E1E1E;
+    --primary:  #6b3e2e; 
+    --primary-dark:  #2f1e16;     
+    --text-dark:  #1f1f1f;
+    --text-light:  #d6c3ae; 
+    --section-background:   #f4efe7;
 }
 
 * {
@@ -16,14 +17,14 @@
     }
 
     body {
-      font-family: 'Quicksand', sans-serif;
+      font-family:'Special Elite', 'Georgia', serif;
       color: var(--text-dark);
       line-height: 1.6;
       background-color: #ffffff;
     }
 
     h1, h2, h3 {
-        font-family: 'Caveat', cursive;
+        font-family: 'Domine', serif;
         color: var(--primary);
     }
 
@@ -74,9 +75,10 @@
       margin-bottom: 0.5rem;
     }
 
+
     header p {
       font-size: clamp(1rem, 4vw, 1.5rem);
-      margin-bottom: 1rem;
+      margin-top: 1rem;
     }
 
     .hero-buttons {
